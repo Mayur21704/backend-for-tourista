@@ -37,8 +37,6 @@ cloudinary.config({
 });
 
 connectDB();
-
-//admin routes
 app.use("/api/v1/admin", adminRoutes);
 
 app.use("/api/v1", authRoutes);
